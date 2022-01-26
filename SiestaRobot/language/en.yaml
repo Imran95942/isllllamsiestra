@@ -223,41 +223,41 @@ bansmutes_help: |
 blacklist_help: |
     ──「 Blacklist 」──
 
-    Blacklists are used to stop certain triggers from being said in a group. Any time the trigger is mentioned, the message will immediately be deleted. A good combo is sometimes to pair this up with warn filters!
+    Черные списки используются для предотвращения произнесения определенных слов в группе. При каждом упоминании слово сообщение будет немедленно удалено. 
 
-    *NOTE*: Blacklists do not affect group admins.
+    *ПРИМЕЧАНИЕ*: черные списки не влияют на администраторов групп.
 
-    ❂ /blacklist*:* View the current blacklisted words.
+    ❂ /blacklist*:* Просмотр текущих слов в черном списке.
 
     Admin only:
-    ❂ /addblacklist <triggers>*:* Add a trigger to the blacklist. Each line is considered one trigger, so using different lines will allow you to add multiple triggers.
-    ❂ /unblacklist <triggers>*:* Remove triggers from the blacklist. Same newline logic applies here, so you can remove multiple triggers at once.
-    ❂ /blacklistmode <off/del/warn/ban/kick/mute/tban/tmute>*:* Action to perform when someone sends blacklisted words.
+    ❂ /addblacklist <triggers>*:* Добавляет слова в черный список. Каждая строка считается одним словом, поэтому использование разных строк позволит вам добавить несколько слов.
+    ❂ /unblacklist <triggers>*:* Удаляет слова из черного списка. Здесь применяется та же логика новой строки, поэтому вы можете удалить сразу несколько слов.
+    ❂ /blacklistmode <off/del/warn/ban/kick/mute/tban/tmute>*:* Действие, выполняемое, когда кто-то отправляет слова из черного списка.
 
-    Blacklist sticker is used to stop certain stickers. Whenever a sticker is sent, the message will be deleted immediately.
-    *NOTE:* Blacklist stickers do not affect the group admin
-    ❂ /blsticker*:* See current blacklisted sticker
-    *Only admin:*
-    ❂ /addblsticker <sticker link>*:* Add the sticker trigger to the black list. Can be added via reply sticker
-    ❂ /unblsticker <sticker link>*:* Remove triggers from blacklist. The same newline logic applies here, so you can delete multiple triggers at once
-    ❂ /rmblsticker <sticker link>*:* Same as above
-    ❂ /blstickermode <delete/ban/tban/mute/tmute>*:* sets up a default action on what to do if users use blacklisted stickers
-    Note:
+    Наклейка «Черный список» используется для остановки определенных стикеров. Всякий раз, когда стикер отправляется, сообщение будет немедленно удалено.
+    *ПРИМЕЧАНИЕ:* Стикеры из черного списка не влияют на администратора группы
+    ❂ /blsticker*:* Посмотреть текущие стикеры из черного списка
+    *Только админ:*
+    ❂ /addblsticker <sticker link>*:* Добавляет стикера в черный список.
+    ❂ /unblsticker <sticker link>*:* Удаляет стикеры из черного списка.
+    ❂ /rmblsticker <sticker link>*:* То же, что и выше
+    ❂ /blstickermode <delete/ban/tban/mute/tmute>*:* устанавливает действие по умолчанию, что делать, если пользователи используют стикеры из черного списка
+    Примечание:
     ❂ <sticker link> can be `https://t.me/addstickers/<sticker>` or just `<sticker>` or reply to the sticker message
 chatbot_help: |
     ──「 Chatbot AI 」──
 
-    Siesta AI is the only ai system which can detect & reply upto 200 language's
+    Siesta AI — единственная система искусственного интеллекта, которая может обнаруживать и отвечать на до 200 языков.
 
-    ❂ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
-    ❂ /chatbot EN : Enables English only chatbot.
+    ❂ /chatbot [ON/OFF]: Включает и отключает режим AI Chat.
+    ❂ /chatbot EN : Включает чат-бот только на английском языке.
 cleaner_help: |
     ──「 Cleaner 」──
 
-    Blue text cleaner removed any made up commands that people send in your chat.
+    Очиститель синего текста удалил все выдуманные команды, которые люди отправляют в ваш чат.
 
-    ❂ /cleanblue <on/off/yes/no>*:* clean commands after sending
-    ❂ /ignoreblue <word>*:* prevent auto cleaning of the command
+    ❂ /cleanblue <on/off/yes/no>*:* чистые команды после отправки
+    ❂ /ignoreblue <word>*:* предотвратить автоматическую очистку команды
     ❂ /unignoreblue <word>*:* remove prevent auto cleaning of the command
     ❂ /listblue*:* list currently whitelisted commands
 
