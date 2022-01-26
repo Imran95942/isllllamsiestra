@@ -100,7 +100,7 @@ admin_help: |
     ❂ /admins*:* Список админов в чате
     ❂ /pinned*:* чтобы получить текущее закрепленное сообщение.
 
-    *The Following Commands are Admins only:* 
+    *Следующие команды доступны только администраторам:* 
     ❂ /pin*:* тихо прикрепляет сообщение, на которое был дан ответ — добавьте `'loud'` или `'notify'`, чтобы уведомлять пользователей
     ❂ /unpin*:* открепляет текущее закрепленное сообщение
     ❂ /invitelink*:* получает инвайтлинк
@@ -118,9 +118,9 @@ admin_help: |
     ❂ /setsticker*:* Установить групповой стикер
 
     *Rules*:
-    ❂ /rules*:* get the rules for this chat.
-    ❂ /setrules <your rules here>*:* set the rules for this chat.
-    ❂ /clearrules*:* clear the rules for this chat.
+    ❂ /rules*:* получите правила для этого чата.
+    ❂ /setrules <ваши правила здесь>: устанавливает правила для этого чата
+    ❂ /clearrules*:* удаляет правила этого чата
 anime_help: |
     ──「 Anime Search 」──   
 
@@ -154,20 +154,20 @@ antichannel_help: |
 antiflood_help: |
     ──「 Anti-Flood 」──
 
-    Antiflood allows you to take action on users that send more than x messages in a row. Exceeding the set flood \
-    will result in restricting that user.
-    This will mute users if they send more than 10 messages in a row, bots are ignored.
-    ❂ `/flood`*:* Get the current flood control setting
+    Антифлуд позволяет принимать меры в отношении пользователей, которые отправляют более 10 сообщений подряд. Превышение установленного порядки\
+    приведет к ограничению этого пользователя.
+    Это отключит пользователей, если они отправят более 10 сообщений подряд, боты игнорируются..
+    ❂ `/flood`*:* получите текущие настройки защиты от спама
 
     *Admins only:*
 
-    ❂ `/setflood <int/'no'/'off'>`*:* enables or disables flood control
-    *Example:* `/setflood 10`
-    ❂ `/setfloodmode <ban/kick/mute/tban/tmute> <value>`*:* Action to perform when user have exceeded flood limit. ban/kick/mute/tmute/tban
+    ❂ `/setflood <int/'no'/'off'>`*:* устанавите количество сообщений, при которых нужно предпринять действия для пользователя.
+    *Пример:* `/setflood 10`
+    ❂ `/setfloodmode <ban/kick/mute/tban/tmute> <value>`*:* Действие, выполняемое, когда пользователь превысил лимит флуда. ban/kick/mute/tmute/tban
 
     *Note:*
-    Value must be filled for tban and tmute!!
-    It can be:
+    Значение должно быть заполнено для tban и tmute!!
+    Это может быть:
     ➩ `5m` = 5 minutes
     ➩ `6h` = 6 hours
     ➩ `3d` = 3 days
@@ -176,10 +176,9 @@ antispam_help: |
     ──「 Anti-Spam 」──
 
     *Admins only:*
-    ❂ `/antispam <on/off/yes/no>`*:* Will toggle our antispam tech or return your current settings.
+    ❂ `/antispam <on/off/yes/no>`*:Измените параметры защиты от спама в группе или верните текущие настройки (если нет аргументов).
 
-    Anti-Spam, used by bot devs to ban spammers across all groups. This helps protect \
-    you and your groups by removing spam flooders as quickly as possible.
+    Анти спам используется владельцами ботов для запрета спамеров во всех группах. Это помогает защитить вас и ваши группы, удаляя спам-наводнения как можно быстрее. Это включено по умолчанию, но вы можете изменить это с помощью команды.
     *Note:* Users can appeal gbans or report spammers at @{SUPPORT_CHAT}
 
     This also integrates @Spamwatch API to remove Spammers as much as possible from your chatroom!
