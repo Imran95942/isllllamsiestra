@@ -25,9 +25,9 @@ group_start_text: |
   *Started active since :* `{}`
 
 pm_about_text: |
-  ✺ Hey Darling I'm *Siesta Robot*, a powerful group management bot built to help you manage your group easily. ✺
+  ✺ Здравствуйте! Меня зовут BORZ - я здесь, чтобы помочь вам управлять своими группами!. ✺
 
-  ✪ I can restrict users.
+  ✪ Я могу ограничить пользователей.
   ✪ I can greet users with customizable welcome messages and even set a group's rules.
   ✪ I have an advanced anti-flood system.
   ✪ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
@@ -35,18 +35,18 @@ pm_about_text: |
   ✪ I check for admins' permissions before executing any command and more stuffs
 
   _Siesta's licensed under the GNU General Public License v3.0_
-  Click on button bellow to get basic help for Siesta Robot.
+  Click on button bellow to get basic help for BORZ.
 pm_about_admin_text: |
   *✺ Let's make your group bit effective now ✺*
 
-  Congragulations, Siesta Robot now ready to manage your group.
+  Congragulations, BORZ now ready to manage your group.
 
   *Admin Tools*
-  Basic Admin tools help you to protect and powerup your group.
-  You can ban members, Kick members, Promote someone as admin through commands of bot.
+  Основные инструменты администратора помогут вам защитить и усилить вашу группу.
+  Вы можете банить участников, выкидывать участников, продвигать кого-то как администратора с помощью команд бота.
 
   *Greetings*
-  Lets set a welcome message to welcome new users coming to your group.
+  Давайте установим приветственное сообщение, чтобы приветствовать новых пользователей, приходящих в вашу группу.
   Send `/setwelcome [message]` to set a welcome message!
 pm_about_notes_text: |
   *✺ Setting up notes ✺*
@@ -97,25 +97,25 @@ admin_help: |
     ──「 Admins 」──
 
     *User Commands*:
-    ❂ /admins*:* list of admins in the chat
-    ❂ /pinned*:* to get the current pinned message.
+    ❂ /admins*:* Список админов в чате
+    ❂ /pinned*:* чтобы получить текущее закрепленное сообщение.
 
     *The Following Commands are Admins only:* 
-    ❂ /pin*:* silently pins the message replied to - add `'loud'` or `'notify'` to give notifs to users
-    ❂ /unpin*:* unpins the currently pinned message
-    ❂ /invitelink*:* gets invitelink
-    ❂ /promote*:* promotes the user replied to
-    ❂ /fullpromote*:* promotes the user replied to with full rights
-    ❂ /demote*:* demotes the user replied to
-    ❂ /title <title here>*:* sets a custom title for an admin that the bot promoted
-    ❂ /admincache*:* force refresh the admins list
-    ❂ /del*:* deletes the message you replied to
-    ❂ /purge*:* deletes all messages between this and the replied to message.
-    ❂ /purge <integer X>*:* deletes the replied message, and X messages following it if replied to a message.
-    ❂ /setgtitle <text>*:* set group title
-    ❂ /setgpic*:* reply to an image to set as group photo
-    ❂ /setdesc*:* Set group description
-    ❂ /setsticker*:* Set group sticker
+    ❂ /pin*:* тихо прикрепляет сообщение, на которое был дан ответ — добавьте `'loud'` или `'notify'`, чтобы уведомлять пользователей
+    ❂ /unpin*:* открепляет текущее закрепленное сообщение
+    ❂ /invitelink*:* получает инвайтлинк
+    ❂ /promotion*:* Повышает пользователя, Ответьте пользователю или используйте его имя пользователя.
+    ❂ /fullpromote*:* Повышает пользователя, Ответьте пользователю или используйте его имя пользователя.
+    ❂ /demote*:* Понижает пользователя. Ответьте пользователю или используйте его имя пользователя.
+    ❂ /title <заголовок здесь>*:* задает пользовательский заголовок для администратора, которого продвигал бот
+    ❂ /admincache*:* принудительно обновить список администраторов
+    ❂ /del*:* удаляет сообщение, на которое вы ответили
+    ❂ /purge*:* удаляет все сообщения между этим и ответным сообщением.
+    ❂ /purge <целое число X>*:* удаляет ответное сообщение и X сообщений, следующих за ним.
+    ❂ /setgtitle <текст>*:* устанавливает название группы
+    ❂ /setgpic*:* ответ на изображение, которое нужно установить в качестве группового фото
+    ❂ /setdesc*:* Установить описание группы
+    ❂ /setsticker*:* Установить групповой стикер
 
     *Rules*:
     ❂ /rules*:* get the rules for this chat.
