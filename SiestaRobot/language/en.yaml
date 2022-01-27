@@ -10,7 +10,8 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 # PM Text
 pm_start_text: |
   *Здравствуйте, {} 💀*
-  ✪ Я BORZ [✨](https://telegra.ph/file/e23205114ed56ce497aab.jpg)
+  ✪ Данный бот поможет модерировать ваши чаты!
+Добавьте бота в ваш чат и выдайте права администратора. [✨](https://telegra.ph/file/e23205114ed56ce497aab.jpg)
 
   ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
   × *Server Uptime :* `{}`
