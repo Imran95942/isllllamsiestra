@@ -54,7 +54,7 @@ pm_about_notes_text: |
   ✪ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
   ✪ You can also set buttons for notes and filters (refer help menu)
 pm_about_support_text: |
-  *✺ Siesta Robot support chats ✺*
+  *✺ BORZ support chats ✺*
 
   Join My Support Group/Channel for see or report a problem on Siesta.
 pm_about_credit_text: |
@@ -203,9 +203,9 @@ approve_help: |
 bansmutes_help: |
     ──「 Bans / Mutes 」──
 
-    *User Commands:*
+    *Команды пользователя:*
 
-    ❂ /kickme*:* kicks the user who issued the command
+    ❂ /kickme*:* Удаляет пользователя, использовавшего команду.
 
     *Admins only:*
 
@@ -214,12 +214,12 @@ bansmutes_help: |
     ❂ /tban <userhandle> x(m/h/d)*:* для выдачи временного бана. m = минуты, h = часы, d = дни.
     ❂ /unban <userhandle>*:* Снимает бан.. 
     ❂ /kick <userhandle>*:* выкидывает пользователя из группы <ответить на сообщение пользователя> или <упомянуть>
-    ❂ /mute <userhandle>*:* silences a user. Can also be used as a reply, muting the replied to user.
-    ❂ /tmute <userhandle> x(m/h/d)*:* mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-    ❂ /unmute <userhandle>*:* unmutes a user. Can also be used as a reply, muting the replied to user.
-    ❂ /zombies*:* searches deleted accounts
-    ❂ /zombies clean*:* removes deleted accounts from the group.
-    ❂ /snipe <chatid> <string>*:* Make me send a message to a specific chat.
+    ❂ /mute <userhandle>*:* выдаёт мут пользователю.
+    ❂ /tmute <userhandle> x(m/h/d)*:* выдаёт мут участнику на указанное время.. (ответить на сообщение пользователя). `m` = `минут`, `h` = `часы`, `d` = `дней`.
+    ❂ /unmute <userhandle>*:* снимает мут.
+    ❂ /zombies*:* ищет удаленные аккаунты
+    ❂ /zombies clean*:* удаляет удаленные аккаунты из группы.
+    ❂ /snipe <chatid> <string>*:* Заставляет бота отправить сообщение в определенный чат.
 blacklist_help: |
     ──「 Blacklist 」──
 
@@ -258,13 +258,13 @@ cleaner_help: |
 
     ❂ /cleanblue <on/off/yes/no>*:* чистые команды после отправки
     ❂ /ignoreblue <word>*:* предотвратить автоматическую очистку команды
-    ❂ /unignoreblue <word>*:* remove prevent auto cleaning of the command
-    ❂ /listblue*:* list currently whitelisted commands
+    ❂ /unignoreblue <word>*:* удалить запретить автоматическую очистку команды
+    ❂ /listblue*:* список в настоящее время разрешенных команд
 
-    *Following are Disasters only commands, admins cannot use these:*
+    *The following are Disasters only commands, admins cannot use these:*
 
     ❂ /gignoreblue <word>*:* globally ignorea bluetext cleaning of saved word across Saitama.
-    ❂ /ungignoreblue <word>*:* remove said command from global cleaning list
+    ❂ /ungignoreblue <word>*:* удалить указанную команду из глобального списка очистки
 connection_help: |
     ──「 Connection 」──
 
@@ -350,7 +350,7 @@ fsub_feds_help: |
     ❂ Add me in your channel as admin 
     
     *Commmands*
-    ❂ /fsub {channel username} - To turn on and setup the channel.
+    ❂ /fsub {channel username} - Включить и настроить канал.
 
       💡Do this first...
 
@@ -474,17 +474,17 @@ greetings_help: |
     ──「 Greetings 」──
 
     *Admins only:*
-    ❂ /welcome <on/off>*:* enable/disable welcome messages.
-    ❂ /welcome*:* shows current welcome settings.
-    ❂ /welcome noformat*:* shows current welcome settings, without the formatting - useful to recycle your welcome messages!
-    ❂ /goodbye*:* same usage and args as `/welcome`.
-    ❂ /setwelcome <sometext>*:* set a custom welcome message. If used replying to media, uses that media.
-    ❂ /setgoodbye <sometext>*:* set a custom goodbye message. If used replying to media, uses that media.
-    ❂ /resetwelcome*:* reset to the default welcome message.
-    ❂ /resetgoodbye*:* reset to the default goodbye message.
-    ❂ /cleanwelcome <on/off>*:* On new member, try to delete the previous welcome message to avoid spamming the chat.
-    ❂ /welcomemutehelp*:* gives information about welcome mutes.
-    ❂ /cleanservice <on/off*:* deletes telegrams welcome/left service messages.
+    ❂ /welcome <on/off>*:* включить/отключить приветственные сообщения.
+    ❂ /welcome*:* показывает текущие настройки приветствия.
+    ❂ /welcome noformat*:* показывает текущие настройки приветствия без форматирования - полезно для повторного использования ваших приветственных сообщений!
+    ❂ /goodbye*:* то же использование и аргументы, что и у `/welcome`.
+    ❂ /setwelcome <sometext>*:* установить пользовательское приветственное сообщение.
+    ❂ /setgoodbye <sometext>*:*
+    ❂ /resetwelcome*:* сбросить приветственное сообщение по умолчанию.
+    ❂ /resetgoodbye*:* сбросить сообщение на прощание по умолчанию.
+    ❂ /cleanwelcome <on/off>*:* Для нового участника попробуйте удалить предыдущее приветственное сообщение, чтобы не спамить чат.
+    ❂ /welcomemutehelp*:* предоставляет информацию о приветственном отключении звука.
+    ❂ /cleanservice <on/off*:* удаляет приветственные/оставленные служебные сообщения телеграмм.
     *Example:*
     user joined chat, user left chat.
     *Welcome markdown:*
@@ -562,17 +562,17 @@ info_and_afk_help: |
 locks_help: |
     ──「 Locks 」──
 
-    Do stickers annoy you? or want to avoid people sharing links? or pictures? \
-    You're in the right place!
-    The locks module allows you to lock away some common items in the \
-    telegram world; the bot will automatically delete them!
+    Вас раздражают стикеры? или хотите, чтобы люди не делились ссылками? или картинки? \
+    Вы находитесь в правильном месте!
+    Модуль блокировки позволяет заблокировать некоторые медиа в \
+    BORZ; автоматически удалит их!
 
-    ❂ /locktypes*:* Lists all possible locktypes
+    ❂ /locktypes*:* Список всех возможных типов блокировки
 
-    *Admins only:*
-    ❂ /lock <type>*:* Lock items of a certain type (not available in private)
-    ❂ /unlock <type>*:* Unlock items of a certain type (not available in private)
-    ❂ /locks*:* The current list of locks in this chat.
+    *Только администраторы:*
+    ❂ /lock <тип>*:* Заблокировать медиа определенного типа (недоступно в приватном режиме)
+    ❂ /unlock <тип>*:* Разблокировать медиа (недоступно в приватном режиме)
+    ❂ /locks*:* Текущий список блокировки в этом чате.
 
     Locks can be used to restrict a group's users.
     eg:
@@ -586,9 +586,9 @@ locks_help: |
 logchannel_help: |
     ──「 Log channel 」──
 
-    ❂ /logchannel*:* get log channel info
-    ❂ /setlog*:* set the log channel.
-    ❂ /unsetlog*:* unset the log channel.
+    ❂ /logchannel*:* получить информацию о канале журнала
+    ❂ /setlog*:* установить канал логов
+    ❂ /unsetlog*:* отключить канал логов.
 
     *Setting the log channel is done by*:
 
