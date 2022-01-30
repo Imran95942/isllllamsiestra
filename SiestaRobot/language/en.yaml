@@ -189,17 +189,17 @@ antispam_help: |
 approve_help: |
     ──「 Aprroved 」──
 
-    Sometimes, you might trust a user not to send unwanted content.
-    Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
-
-    That's what approvals are for - approve of trustworthy users to allow them to send
-
+    Иногда вы можете доверять пользователю, чтобы он не отправлял нежелательный контент.
+        Возможно, не настолько, чтобы сделать его администратором, но вы можете быть согласны с тем, что блокировки, черные списки и антифлуд к нему не применяются.
+    Вот для чего нужны одобрения - одобрить доверенных пользователей, чтобы разрешить им отправлять.
     *Admin commands:*
-    ❂ /approval*:* Check a user's approval status in this chat.
-    ❂ /approve*:* Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
-    ❂ /unapprove*:* Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
-    ❂ /approved*:* List all approved users.
-    ❂ /unapproveall*:* Unapprove *ALL* users in a chat. This cannot be undone.
+    ❂ /approval*:* Проверить статус одобрения пользователя в этом чате.
+        ❂ /approve*:* Одобрить пользователя. Блокировки, черные списки и антифлуд больше не будут применяться к нему.
+        ❂ /unapprove*:* Не одобрить пользователя. Теперь на него снова будут распространяться блокировки, черные списки и антифлуд.
+        ❂ /approved*:* Список всех одобренных пользователей.
+        ❂ /unapproveall*:* Отменить одобрение *всех* пользователей в чате. Это нельзя отменить
+
+
 bansmutes_help: |
     ──「 Bans / Mutes 」──
 
@@ -261,28 +261,28 @@ cleaner_help: |
     ❂ /unignoreblue <word>*:* удалить запретить автоматическую очистку команды
     ❂ /listblue*:* список в настоящее время разрешенных команд
 
-    *The following are Disasters only commands, admins cannot use these:*
+    *Следующие команды - это команды, предназначенные только для аварийных служб, администраторы не могут их использовать:*
 
     ❂ /gignoreblue <word>*:* глобально игнорировать очистку синего текста сохраненного слова в Борзе.
     ❂ /ungignoreblue <word>*:* удалить указанную команду из глобального списка очистки
 connection_help: |
     ──「 Connection 」──
 
-    Sometimes, you just want to add some notes and filters to a group chat, but you don't want everyone to see; This is where connections come in...
-    This allows you to connect to a chat's database, and add things to it without the commands appearing in chat! For obvious reasons, you need to be an admin to add things; but any member in the group can view your data.
+    Иногда вы просто хотите добавить некоторые заметки и фильтры в групповой чат, но не хотите, чтобы все их видели.
+        Это позволяет вам подключаться к базе данных чата и добавлять в него вещи без появления команд в чате! По очевидным причинам, для добавления данных вам необходимо быть администратором, но любой член группы может просматривать ваши данные.
 
-    ❂ /connect: Connects to chat (Can be done in a group by /connect or /connect <chat id> in PM)
-    ❂ /connection: List connected chats
-    ❂ /disconnect: Disconnect from a chat
-    ❂ /helpconnect: List available commands that can be used remotely
+        ❂ /connect: Подключает к чату (может быть сделано в группе с помощью /connect или /connect <chat id> в личку)
+        ❂ /connection: Список подключенных чатов
+        ❂ /disconnect: Отключиться от чата
+        ❂ /helpconnect: Список доступных команд, которые можно использовать удаленно
 
     *Admin only:*
 
-    ❂ /allowconnect <yes/no>: allow a user to connect to a chat
+    ❂ /allowconnect <yes/no>: разрешить пользователю подключаться к чату
 disabling_help: |
     ──「 Disabling 」──
 
-    ❂ /cmds*:* check the current status of disabled commands
+    ❂ /cmds*:* проверка текущего состояния отключенных команд
 
     *Admins only:*
 
@@ -296,13 +296,13 @@ extras_help: |
 
     ❂ /markdownhelp*:* краткое изложение того, как работает уценка в телеграмме - можно вызывать только в приватных чатах
     ❂ /paste*:* Сохраняет отвеченный контент на `nekobin.com` и отвечает URL-адресом
-    ❂ /spaste*:* Saves replied content to `spaceb.in` and replies with a url
-    ❂ /react*:* Reacts with a random reaction 
-    ❂ /ud <word>*:* Type the word or expression you want to search use
-    ❂ /reverse*:* Does a reverse image search of the media which it was replied to.
-    ❂ /wiki <query>*:* wikipedia your query
-    ❂ /wall <query>*:* get a wallpaper from wall.alphacoders.com
-    ❂ /cash*:* currency converter
+    ❂ /spaste*:* Сохраняет содержимое ответа в `spaceb.in` и отвечает на него с помощью урла
+    ❂ /react*:* Реагирует случайной реакцией 
+    ❂ /ud <word>*:* Введите слово или выражение, которое вы хотите использовать для поиска
+    ❂ /reverse*:* Выполняет обратный поиск изображений в СМИ, на которые был дан ответ.
+    ❂ /wiki <запрос>*:* Википедия вашего запроса
+    ❂ /wall <запрос>*:* получить обои с сайта wall.alphacoders.com
+    ❂ /cash*:* конвертер валют
 
       Example:
       ➩ `/cash 1 USD INR`  
@@ -574,11 +574,11 @@ locks_help: |
     ❂ /unlock <тип>*:* Разблокировать медиа (недоступно в приватном режиме)
     ❂ /locks*:* Текущий список блокировки в этом чате.
 
-    Locks can be used to restrict a group's users.
+    Блокировки можно использовать для ограничения пользователей группы.
     eg:
-    Locking urls will auto-delete all messages with urls, locking stickers will restrict all \
-    non-admin users from sending stickers, etc.
-    Locking bots will stop non-admins from adding bots to the chat.
+    Блокировка ссылок приведет к автоматическому удалению всех сообщений с ссылками, блокировка стикеров ограничит всех \
+        неадминистративных пользователей от отправки стикеров и т.д.
+        Блокировка ботов не позволит не-админам добавлять ботов в чат.
 
     *Note:*
     ❂ Unlocking permission *info* will allow members (non-admins) to change the group information, such as the description or the group name
@@ -669,14 +669,14 @@ stickers_help: |
     ──「 Stickers 」──
 
     *Help menu for stickers tools*
-    ❂ /stickerid*:* reply to a sticker to me to tell you its file ID.
-    ❂ /getsticker*:* reply to a sticker to me to upload its raw PNG file.
-    ❂ /kang*:* reply to a sticker to add it to your pack.
-    ❂ /delsticker*:* Reply to your anime exist sticker to your pack to delete it.
-    ❂ /stickers*:* Find stickers for given term on combot sticker catalogue
-    ❂ /tiny*:* To make small sticker
-    ❂ /kamuii <1-8> *:* To deepefying stiker
-    ❂ /mmf <reply with text>*:* To draw a text for sticker or pohots
+    ❂ /stickerid*:* ответьте мне на стикер, чтобы я сообщил вам его ID файла.
+    ❂ /getsticker*:* ответьте мне на стикер, чтобы загрузить его необработанный PNG-файл.
+    ❂ /kang*:* ответьте на стикер, чтобы добавить его в свой пакет.
+    ❂ /delsticker*:* ответить на стикер, чтобы удалить его из своего пака.
+    ❂ /stickers*:* Найти стикеры для заданного термина в каталоге стикеров combot.
+    ❂ /tiny*:* Сделать маленькую наклейку.
+    ❂ /kamuii <1-8> *:* Для углубления стикера
+    ❂ /mmf <ответ с текстом>*:* Нарисовать текст для стикера
 tools_help: |
     ──「 Tools 」──
 
