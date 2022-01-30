@@ -1,5 +1,5 @@
 # Language name in their native
-language: "Russian 💀"
+language: "Russian 🇬🇧"
 # name of people(s) who worked on this translation
 authors: "@isIam07"
 
@@ -681,56 +681,56 @@ tools_help: |
     ──「 Tools 」──
 
     *Sangmata Info bot*
-        ❂ /sg <reply>*:* Для проверки имени истории
+    ❂ /sg <reply>*:* To check history name
 
-        *Дата-Время-Погода*
-        ❂ /time <код страны>*:* Дает информацию о часовом поясе.
-        ❂ /weather <город>*:* Получает информацию о погоде в определенном месте.
-        ❂ /wttr <город>*:* Расширенный модуль погоды, используется так же, как /weather
-        ❂ /wttr moon*:* Получение текущего состояния Луны.
+    *Date-time-Weather*
+    ❂ /time <country code>*:* Gives information about a timezone.
+    ❂ /weather <city>*:* Get weather info in a particular place.
+    ❂ /wttr <city>*:* Advanced weather module, usage same as /weather
+    ❂ /wttr moon*:* Get the current status of moon
 
-        *Конверты*
-        ❂ /encrypt*:* Шифрует заданный текст
-        ❂ /decrypt*:* Расшифровывает ранее зашифрованный текст
-        ❂ /zip*:* ответ на файл телеграммы для сжатия его в формат .zip
-        ❂ /unzip*:* ответ на файл телеграммы для распаковки его из формата .zip
+    *Converts*
+    ❂ /encrypt*:* Encrypts The Given Text
+    ❂ /decrypt*:* Decrypts Previously Ecrypted Text
+    ❂ /zip*:* reply to a telegram file to compress it in .zip format
+    ❂ /unzip*:* reply to a telegram file to decompress it from the .zip format
 
-        *Случайный API*
-        ❂ /ptl: получить случайное видео из временной шкалы Instagram
-        ❂ /chika: получить случайное видео из chikakiku
-        ❂ /wibu: получить случайное короткое аниме видео или фотографии
-        ❂ /truth: вызов 
-        ❂ /dare: вызов
-        Ссылка на файл:
-        ❂ /up: ответить на прямую ссылку на скачивание, чтобы загрузить ее в telegram в виде файлов
+    *Random API*
+    ❂ /ptl: get random video from Instagram timeline
+    ❂ /chika: get random video from chikakiku
+    ❂ /wibu:get random short anime video or photos
+    ❂ /truth: challenge 
+    ❂ /dare: challenge
+    Link To File:
+    ❂ /up: reply to a direct download link to upload it to telegram as files
     
-        Ссылка на файл:
-        ❂ /transfersh: ответить на файл в telegram, чтобы загрузить его на transferh и получить прямую ссылку на скачивание
-        ❂ /tmpninja: ответить на файл telegram, чтобы загрузить его на tmpninja и получить прямую ссылку на скачивание
-        Файл или текст в Телеграм:
-        ❂ /tgm : Получить телеграфную ссылку на ответное сообщение
-        ❂ /tgt: Получить телеграфную ссылку на ответный текст
+    File To Link:
+    ❂ /transfersh: reply to a telegram file to upload it on transfersh and get direct download link
+    ❂ /tmpninja: reply to a telegram file to upload it on tmpninja and get direct download link
+    File Or Text To Telegraph:
+    ❂ /tgm : Get Telegraph Link Of Replied Media
+    ❂ /tgt: Get Telegraph Link of Replied Text
 
-        Теггер
-        ❂ /tagall : чтобы пометить всех, по крайней мере, 100 пользователей.
+    Tagger
+    ❂ /tagall : for tag everyone at least 100 member first.
 translator_help: |
-        「 Переводчик 」──
+    ──「 Translator 」──
 
-        Используйте этот модуль для перевода!
+    Use this module to translate stuff!
 
-        *Команды:*
-        ❂ /tl (или /tr): как ответ на сообщение, переводит его на английский язык.
-        ❂ /tl <lang>: переводит на <lang>.
-              например: /tl ja: переводит на японский язык.
-        ❂ /tl <source>//<dest>: переводит из <source> в <lang>.
-              Например: /tl ja//en: переводит с японского на английский.
-        ❂ /langs: получить список поддерживаемых языков для перевода.
+    *Commands:*
+    ❂ /tl (or /tr): as a reply to a message, translates it to English.
+    ❂ /tl <lang>: translates to <lang>
+       eg: /tl ja: translates to Japanese.
+    ❂ /tl <source>//<dest>: translates from <source> to <lang>.
+       eg:  /tl ja//en: translates from Japanese to English.
+    ❂ /langs: get a list of supported languages for translation.
 
-        Я могу преобразовать текст в голос и голос в текст.
-        ❂ /tts <код языка>*:* Ответьте на любое сообщение, чтобы получить вывод текста в речь.
-        ❂ /stt*:* Введите ответ на голосовое сообщение (поддерживается только английский), чтобы извлечь из него текст.
+    I can convert text to voice and voice to text..
+    ❂ /tts <lang code>*:* Reply to any message to get text to speech output
+    ❂ /stt*:* Type in reply to a voice message(support english only) to extract text from it.
     
-        * Языковые коды*.
+    *Language Codes*
       `af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
       et,eu,fa,fi,fr,fy,ga,gd,gl,gu,ha,haw,hi,hmn,hr,ht,hu,hy,
       id,ig,is,it,iw,ja,jw,ka,kk,km,kn,ko,ku,ky,la,lb,lo,lt,lv,mg,mi,mk,
@@ -740,15 +740,15 @@ translator_help: |
 warns_help: |
     ──「 Warns 」──
 
-    ❂ /warns <userhandle>: получить количество и причину предупреждений пользователя.
-    ❂ /warnlist: список всех текущих фильтров предупреждений.
-    ❂  /warn <userhandle>: предупредить пользователя. После 3 предупреждений пользователь будет исключен из группы. Может также использоваться в качестве ответа.
-    ❂ /dwarn <userhandle>: предупредить пользователя и удалить сообщение. После 3 предупреждений пользователь будет удален из группы. Также может быть использовано в качестве ответа.
-    ❂ /resetwarn <userhandle>: сбросить предупреждения для пользователя. Также может использоваться в качестве ответа.
-    ❂ /addwarn <ключевое слово> <ответное сообщение>: установить фильтр предупреждений на определенное ключевое слово. Если вы хотите, чтобы ключевое слово было предложением, заключите его в кавычки, например: /addwarn "очень сердитый" Это сердитый пользователь.
-    ❂ /nowarn <ключевое слово>: остановить фильтр предупреждений
-    ❂ /warnlimit <num>: установить предел предупреждений
-    ❂ /strongwarn <on/yes/off/no>: если установлено значение on, превышение лимита предупреждений приведет к бану. В противном случае будет просто бан.
+    ❂ /warns <userhandle>: get a user's number, and reason, of warns.
+    ❂ /warnlist: list of all current warning filters
+    ❂ /warn <userhandle>: warn a user. After 3 warns, the user will be banned from the group. Can also be used as a reply.
+    ❂ /dwarn <userhandle>: warn a user and delete the message. After 3 warns, the user will be banned from the group. Can also be used as a reply.
+    ❂ /resetwarn <userhandle>: reset the warns for a user. Can also be used as a reply.
+    ❂ /addwarn <keyword> <reply message>: set a warning filter on a certain keyword. If you want your keyword to be a sentence, encompass it with quotes, as such: /addwarn "very angry" This is an angry user.
+    ❂ /nowarn <keyword>: stop a warning filter
+    ❂ /warnlimit <num>: set the warning limit
+    ❂ /strongwarn <on/yes/off/no>: If set to on, exceeding the warn limit will result in a ban. Else, will just punch.
 
 # Admin.py Variabel Text
 user_change_info: "You're missing rights to change chat info!"
