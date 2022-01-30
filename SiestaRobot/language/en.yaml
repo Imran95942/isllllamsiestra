@@ -681,13 +681,13 @@ tools_help: |
     ──「 Tools 」──
 
     *Sangmata Info bot*
-    ❂ /sg <reply>*:* To check history name
+    ❂ /sg <reply>*:* Чтобы проверить имя истории
 
     *Date-time-Weather*
-    ❂ /time <country code>*:* Gives information about a timezone.
-    ❂ /weather <city>*:* Get weather info in a particular place.
-    ❂ /wttr <city>*:* Advanced weather module, usage same as /weather
-    ❂ /wttr moon*:* Get the current status of moon
+    ❂ /time <country code>*:* Дает информацию о часовом поясе.
+    ❂ /weather <city>*:* Получить информацию о погоде в определенном месте.
+    ❂ /wttr <city>*:* Расширенный модуль погоды, использование аналогично /weather
+    ❂ /wttr moon*:* Получить текущий статус луны
 
     *Converts*
     ❂ /encrypt*:* Encrypts The Given Text
@@ -740,15 +740,15 @@ translator_help: |
 warns_help: |
     ──「 Warns 」──
 
-    ❂ /warns <userhandle>: get a user's number, and reason, of warns.
-    ❂ /warnlist: list of all current warning filters
-    ❂ /warn <userhandle>: warn a user. After 3 warns, the user will be banned from the group. Can also be used as a reply.
-    ❂ /dwarn <userhandle>: warn a user and delete the message. After 3 warns, the user will be banned from the group. Can also be used as a reply.
-    ❂ /resetwarn <userhandle>: reset the warns for a user. Can also be used as a reply.
-    ❂ /addwarn <keyword> <reply message>: set a warning filter on a certain keyword. If you want your keyword to be a sentence, encompass it with quotes, as such: /addwarn "very angry" This is an angry user.
-    ❂ /nowarn <keyword>: stop a warning filter
-    ❂ /warnlimit <num>: set the warning limit
-    ❂ /strongwarn <on/yes/off/no>: If set to on, exceeding the warn limit will result in a ban. Else, will just punch.
+    ❂ /warns <userhandle>: получить количество и причину предупреждений пользователя.
+    ❂ /warnlist: список всех текущих фильтров предупреждений.
+    ❂ /warn <userhandle>: предупредить пользователя. После 3 предупреждений пользователь будет исключен из группы. Может также использоваться в качестве ответа.
+    ❂ /dwarn <userhandle>: предупредить пользователя и удалить сообщение. После 3 предупреждений пользователь будет удален из группы. Также может быть использовано в качестве ответа.
+    ❂ /resetwarn <userhandle>: сбросить предупреждения для пользователя. Также может использоваться в качестве ответа.
+    ❂ /addwarn <ключевое слово> <ответное сообщение>: установить фильтр предупреждений по определенному ключевому слову. Если вы хотите, чтобы ключевое слово было предложением, заключите его в кавычки, например: /addwarn "очень сердитый" Это сердитый пользователь.
+    ❂ /nowarn <ключевое слово>: остановить фильтр предупреждений
+    ❂ /warnlimit <num>: установить предел предупреждений
+    ❂ /strongwarn <on/yes/off/no>: если установлено значение on, превышение лимита предупреждений приведет к бану. В противном случае, будет просто банить.
 
 # Admin.py Variabel Text
 user_change_info: "You're missing rights to change chat info!"
