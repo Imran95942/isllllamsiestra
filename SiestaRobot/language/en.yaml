@@ -751,20 +751,20 @@ warns_help: |
     ❂ /strongwarn <on/yes/off/no>: если установлено значение on, превышение лимита предупреждений приведет к бану. В противном случае, будет просто банить.
 
 # Admin.py Variabel Text
-user_change_info: "Вам не хватает прав для изменения информации в чате!".
-set_error: "Ошибка! {}."
-set_sticker: "Вам нужно ответить на какой-то стикер, чтобы установить стикер чата!".
-set_sticker_success: "Успешно установлены новые групповые стикеры в {}!".
-set_sticker_restrictions: "Извините, из-за ограничений telegram чат должен иметь не менее 100 участников, прежде чем в нем появятся групповые стикеры!".
-set_chatpic: "Вы можете установить только некоторую фотографию в качестве пиктограммы чата!".
-set_chatpic_loading: "Секундочку..."
-set_chatpic_success: "Успешно установлен новый чатпик!".
-set_chatpic_none: "Ответьте на какую-нибудь фотографию или файл, чтобы установить новую картинку чата!".
-rm_chatpic: "У вас недостаточно прав для удаления группового фото".
-rm_chatpic_success: "Успешно удалено фото профиля чата!".
-set_desc: "Установка пустого описания ничего не даст!"
-set_desc_len: "Описание должно быть меньше 255 символов!".
-set_desc_success: "Успешно обновлено описание чата в {}!".
+user_change_info: "You're missing rights to change chat info!"
+set_error: "Error! {}."
+set_sticker: "You need to reply to some sticker to set chat sticker set!"
+set_sticker_success: "Successfully set new group stickers in {}!"
+set_sticker_restrictions: "Sorry, due to telegram restrictions chat needs to have minimum 100 members before they can have group stickers!"
+set_chatpic: "You can only set some photo as chat pic!"
+set_chatpic_loading: "Just a sec..."
+set_chatpic_success: "Successfully set new chatpic!"
+set_chatpic_none: "Reply to some photo or file to set new chat pic!"
+rm_chatpic: "You don't have enough rights to delete group photo"
+rm_chatpic_success: "Successfully deleted chat's profile photo!"
+set_desc: "Setting empty description won't do anything!"
+set_desc_len: "Description must needs to be under 255 characters!"
+set_desc_success: "Successfully updated chat description in {}!"
 set_chat_title: "Enter some text to set new title in your chat!"
 set_chat_title_success: "Successfully set <b>{}</b> as new chat title!"
 promote_creator: "You don't have the necessary rights to do that!"
@@ -789,7 +789,7 @@ set_title_len: "The title length is longer than 16 characters.\nTruncating it to
 set_title_error: "Either they aren't promoted by me or you set a title text that is impossible to set."
 set_title_success: "Sucessfully set title for <code>{}</code> to <code>{}</code>"
 pin_none: "Reply a message to pin it!"
-pin_success: "Я прикрепил сообщение".
+pin_success: "I have pinned a message."
 unpin_creator: "You don't have the necessary rights to do that!"
 unpin_success: "Unpinned <a href='{}'>this message</a>."
 unpin_last_msg: "Unpinned the last pinned message."
