@@ -598,9 +598,9 @@ logchannel_help: |
 logomarker_help: |
     ──「 Logo Marker 」──
     
-    This is help menu for logomaker
-    ❂ /logo <text/name> - Create a logo with random view.
-    ❂ /wlogo <text/name> - Create a logo with wide view only.
+    Это меню помощи для программы logomaker
+        ❂ /logo <текст/имя> - Создать логотип с произвольным видом.
+        ❂ /wlogo <текст/имя> - Создать логотип только для широкого просмотра.
 
     *Image Editor : *
     ❂  /edit <reply photo> - to edit image.
@@ -654,14 +654,15 @@ reports_help: |
 search_help: |
     ──「 Search 」──
 
-    ❂ /google <query>*:* Perform a google search
-    ❂ /image <query>*:* Search Google for images and returns them\nFor greater no. of results specify lim, For eg: `/img hello lim=10`
-    ❂ /app <appname>*:* Searches for an app in Play Store and returns its details.
-    ❂ /reverse: Does a reverse image search of the media which it was replied to.
-    ❂ /gps <location>*:* Get gps location.
-    ❂ /github <username>*:* Get information about a GitHub user.
-    ❂ /country <country name>*:* Gathering info about given country
-    ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
+    ❂ /google <запрос>*:* Выполнить поиск в google
+    ❂ /image <query>*:* Поиск изображений в Google и возвращает их\nДля большего количества результатов укажите lim, например: `/img hello lim=10`.
+    ❂ /app <имя приложения>*:* Поиск приложения в Play Store и возвращает его подробную информацию.
+    ❂ /reverse: Выполняет обратный поиск изображений в СМИ, на которые был дан ответ.
+    ❂ /gps <локация>*:* Получение местоположения gps.
+    ❂ /github <имя пользователя>*:* Получение информации о пользователе GitHub.
+    ❂ /country <название страны>*:* Получение информации о заданной стране.
+    ❂ /imdb <Название фильма>*:* Получение полной информации о фильме с помощью imdb.com.
+
     ❂ BORZ <query>*:* BORZ answers the query
 
     💡 Ex : `BORZ where is Japan?`
