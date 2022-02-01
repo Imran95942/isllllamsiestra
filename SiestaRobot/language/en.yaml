@@ -752,13 +752,13 @@ warns_help: |
     ❂ /strongwarn <on/yes/off/no>: если установлено значение on, превышение лимита предупреждений приведет к бану. В противном случае, будет просто банить.
 
 # Admin.py Variabel Text
-user_change_info: "Вам не хватает прав для изменения информации о чате!".
-set_error: "Ошибка! {}."
-set_sticker: "Вам нужно ответить на какой-то стикер, чтобы установить набор стикеров чата!".
-set_sticker_success: "Успешно установлены новые групповые стикеры в {}!".
-set_sticker_restrictions: "Извините, из-за ограничений telegram чат должен иметь не менее 100 участников, прежде чем в нем появятся групповые стикеры!".
-set_chatpic: "Вы можете установить только некоторую фотографию в качестве пиктограммы чата!".
-set_chatpic_loading: "Секундочку..."
+user_change_info: "You're missing rights to change chat info!"
+set_error: "Error! {}."
+set_sticker: "You need to reply to some sticker to set chat sticker set!"
+set_sticker_success: "Successfully set new group stickers in {}!"
+set_sticker_restrictions: "Sorry, due to telegram restrictions chat needs to have minimum 100 members before they can have group stickers!"
+set_chatpic: "You can only set some photo as chat pic!"
+set_chatpic_loading: "Just a sec..."
 set_chatpic_success: "Successfully set new chatpic!"
 set_chatpic_none: "Reply to some photo or file to set new chat pic!"
 rm_chatpic: "You don't have enough rights to delete group photo"
