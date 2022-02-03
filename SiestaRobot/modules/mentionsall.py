@@ -60,13 +60,13 @@ async def mentionall(event):
       break
     usrnum += 1
     usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
-    if usrnum == 10:
+    if usrnum == 14:
       if mode == "text_on_cmd":
         txt = f"{usrtxt}\n\n{msg}"
         await Client.send_message(chat_id, txt)
       elif mode == "text_on_reply":
         await msg.reply(usrtxt)
-      await asyncio.sleep(2)
+      await asyncio.sleep(1)
       usrnum = 0
       usrtxt = ''
   try:
