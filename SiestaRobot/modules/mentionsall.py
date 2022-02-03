@@ -15,7 +15,7 @@ spam_chats = []
 async def mentionall(event):
   chat_id = event.chat_id
   if event.is_private:
-    return await event.respond("This command can be use in groups and channels!")
+    return await event.respond("Эту команду можно использовать в группах и каналах!")
   
   is_admin = False
   try:
@@ -37,7 +37,7 @@ async def mentionall(event):
     ):
       is_admin = True
   if not is_admin:
-    return await event.respond("Only admins can mention all!")
+    return await event.respond("Только администраторы могут упоминать все!")
   
   if event.pattern_match.group(1) and event.is_reply:
     return await event.respond("Give me one argument!")
@@ -74,7 +74,7 @@ async def mentionall(event):
   except:
     pass
 
-@Client.on(events.NewMessage(pattern="^/cancel$"))
+@Client.on(events.NewMessage(pattern="^/finish$"))
 async def cancel_spam(event):
   if not event.chat_id in spam_chats:
     return await event.respond('There is no proccess on going...')
