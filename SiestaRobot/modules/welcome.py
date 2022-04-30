@@ -200,12 +200,12 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    f"Welcome to {html.escape(chat.title)} my king.", reply_to_message_id=reply
+                    f"Разработчик бота {html.escape(chat.title)} только что присоединился к чату.", reply_to_message_id=reply
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
                     f"#USER_JOINED\n"
-                    f"My King just joined the chat"
+                    f"Разработчик бота только что присоединился к чату"
                 )
                 continue
 
